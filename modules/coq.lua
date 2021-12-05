@@ -6,5 +6,5 @@ email: simo.lambin@gmail.com
 ########################################]]
 
 vim.g.coq_settings = {
-    auto_start = true,
+    auto_start = 'shut-up',
 }
