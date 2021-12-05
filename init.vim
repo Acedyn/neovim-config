@@ -129,6 +129,8 @@ Plug 'airblade/vim-gitgutter'
 
 Plug 'Chiel92/vim-autoformat'
 
+Plug 'wfxr/minimap.vim', {'do': ':!cargo install --locked code-minimap'}
+
 Plug 'windwp/nvim-autopairs'
 
 call plug#end()
@@ -142,6 +144,7 @@ source $HOME/.config/nvim/modules/comfortable-motion.vim
 source $HOME/.config/nvim/modules/lsp.vim
 source $HOME/.config/nvim/modules/fugitive.vim
 source $HOME/.config/nvim/modules/autoformat.vim
+source $HOME/.config/nvim/modules/minimap.vim
 
 luafile $HOME/.config/nvim/modules/coq.lua
 luafile $HOME/.config/nvim/modules/lsp-installer.lua
