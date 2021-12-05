@@ -148,4 +148,4 @@ luafile $HOME/.config/nvim/modules/neoclip.lua
 luafile $HOME/.config/nvim/modules/lualine.lua
 luafile $HOME/.config/nvim/modules/comment.lua
 luafile $HOME/.config/nvim/modules/project.lua
-source $HOME/.config/nvim/modules/telescope.lua
+luafile $HOME/.config/nvim/modules/telescope.lua
