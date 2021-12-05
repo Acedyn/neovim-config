@@ -32,3 +32,11 @@ The leader key is &lt;space&gt; the main key bindings are :
 Other useful keybindings :
 
 -   &lt;alt&gt; h/j/k/l to move the selection around
+
+### TODO
+
+-   [ ] Find an equivalent of sniprun for windows
+-   [ ] Try out nvim-dap
+-   [ ] Change to a neovim autoformatter
+-   [ ] Switch to packer plugin manager
+-   [ ] Grey out gitignored files in nvim-tree
