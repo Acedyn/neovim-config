@@ -13,3 +13,6 @@ vim.diagnostic.config({
     update_in_insert = false,
     severity_sort = false,
 })
+
+-- Show diagnostic on hover
+vim.cmd [[autocmd CursorHold,CursorHoldI * lua vim.diagnostic.open_float(nil, {focus=false})]]

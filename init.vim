@@ -28,7 +28,7 @@ set relativenumber
 set mouse=a
 set encoding=UTF-8
 set termguicolors
-set updatetime=500
+set updatetime=250
 set hidden
 
 "Remap backspace in insert to remove word
@@ -141,7 +141,7 @@ colorscheme gruvbox
 
 " Source extra configs
 source $HOME/.config/nvim/modules/comfortable-motion.vim
-source $HOME/.config/nvim/modules/lsp.vim
+source $HOME/.config/nvim/modules/lsp-config.vim
 source $HOME/.config/nvim/modules/fugitive.vim
 source $HOME/.config/nvim/modules/autoformat.vim
 source $HOME/.config/nvim/modules/minimap.vim
