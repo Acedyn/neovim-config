@@ -1,4 +1,5 @@
 # Neovim config
+
 Personal configuration for neovim
 
 ### Requirement
@@ -16,10 +17,12 @@ scoop install neovide
 ### Usage
 
 The leader key is &lt;space&gt; the main key bindings are :
-- &lt;leader&gt; f ... : Telescope related shortcuts
-- &lt;leader&gt; e : File explorer
-- &lt;leader&gt; c : Commenting selection
-- &lt;leader&gt; g ... :  Git related key bindings
 
-Other usefull keybingins :
-- &lt;alt&gt; h/j/k/l to move the selection around
+-   &lt;leader&gt; f ... : Telescope related shortcuts
+-   &lt;leader&gt; e : File explorer
+-   &lt;leader&gt; c : Commenting selection
+-   &lt;leader&gt; g ... : Git related key bindings
+
+Other usefull keybindings :
+
+-   &lt;alt&gt; h/j/k/l to move the selection around
