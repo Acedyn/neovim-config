@@ -15,11 +15,11 @@ scoop install neovide
 
 ### Usage
 
-The leader key is <space> the main key bindings are :
-- <leader> f ... : Telescope related shortcuts
-- <leader> e : File explorer
-- <leader> c : Commenting selection
-- <leader> g ... :  Git related key bindings
+The leader key is &lt;space&gt; the main key bindings are :
+- &lt;leader&gt; f ... : Telescope related shortcuts
+- &lt;leader&gt; e : File explorer
+- &lt;leader&gt; c : Commenting selection
+- &lt;leader&gt; g ... :  Git related key bindings
 
 Other usefull keybingins :
-- <ALT> h/j/k/l to move the selection around
+- &lt;alt&gt; h/j/k/l to move the selection around
