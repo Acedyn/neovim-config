@@ -31,6 +31,9 @@ set termguicolors
 set updatetime=250
 set hidden
 
+" Force the cursor to be centered
+set so=999
+
 "Remap backspace in insert to remove word
 inoremap <C-BS> <C-W>
 
