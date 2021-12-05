@@ -15,3 +15,4 @@ require('FTerm').setup({
 })
 
 vim.api.nvim_set_keymap('n', '<Leader>t', '<CMD>lua require("FTerm").toggle()<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('t', '<Esc>', '<CMD>lua require("FTerm").close()<CR>', { noremap = true, silent = true })
