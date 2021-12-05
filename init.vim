@@ -118,8 +118,11 @@ Plug 'terrortylor/nvim-comment'
 Plug 'kyazdani42/nvim-tree.lua'
 
 Plug 'neovim/nvim-lspconfig'
-Plug 'ms-jpq/coq_nvim'
 Plug 'williamboman/nvim-lsp-installer'
+
+Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
+Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
+Plug 'ms-jpq/coq.thirdparty', {'branch': '3p'}
 
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
