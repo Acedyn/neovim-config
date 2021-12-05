@@ -9,6 +9,7 @@ Personal configuration for neovim
 ```powershell
 scoop install python
 scoop install nodejs
+scoop install rust
 scoop install ripgrep
 scoop install Cascadia-Code
 scoop install neovide
