@@ -12,3 +12,4 @@ nmap <leader>gd :Gdiffsplit<CR>
 nmap <leader>gc :Git commit<CR>
 nmap <leader>gp :Git push<CR>
 nmap <leader>gl :Git log<CR>
+nmap <leader>gb :Git blame<CR>
