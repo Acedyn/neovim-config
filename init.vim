@@ -19,7 +19,7 @@ set nu
 set smartcase
 set noswapfile
 set nobackup
-set undodir=$HOME/vimfiles/.undodir
+set undodir=$HOME/.config/nvim/.undodir
 set undofile
 set incsearch
 set clipboard=unnamed
