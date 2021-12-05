@@ -129,6 +129,8 @@ Plug 'ms-jpq/coq.thirdparty', {'branch': '3p'}
 
 Plug 'numToStr/FTerm.nvim'
 
+Plug 'puremourning/vimspector'
+
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 
@@ -150,6 +152,7 @@ source $HOME/.config/nvim/modules/lsp-config.vim
 source $HOME/.config/nvim/modules/fugitive.vim
 source $HOME/.config/nvim/modules/autoformat.vim
 source $HOME/.config/nvim/modules/minimap.vim
+source $HOME/.config/nvim/modules/vimspector.vim
 
 luafile $HOME/.config/nvim/modules/coq.lua
 luafile $HOME/.config/nvim/modules/lsp-installer.lua

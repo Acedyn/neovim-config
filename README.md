@@ -22,6 +22,20 @@ If not already done, add to the PATH variable:
 
 ### Usage
 
+After setup, first thing to do is:
+
+-   To install the lsp servers you need :
+
+```vimscript
+:LspInstallInfo
+```
+
+-   To Install the debugger adapters you need :
+
+```vimscript
+:VimspectorInstall --all
+```
+
 The leader key is &lt;space&gt; the main key bindings are :
 
 -   &lt;leader&gt; f ... : Telescope related shortcuts
