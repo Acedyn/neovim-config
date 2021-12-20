@@ -88,6 +88,14 @@ if has("win32")
     set guifont=CaskaydiaCove\ Nerd\ Font:h16
 endif
 
+if has("unix")
+    " Termux config
+    if system("uname -m") == "aarch"
+        " Set python install directory
+        let g:python3_host_prog = $PREFIX . "/bin/python"
+    endif
+endif
+
 let g:neovide_cursor_trail_length=0.0
 let g:neovide_cursor_animation_length=0.02
 
