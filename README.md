@@ -9,28 +9,39 @@ Personal configuration for neovim
 ```powershell
 scoop install python            # fugitive/coq requirement
 scoop install nodejs            # lsp installer requirement
-scoop install rust              # minimap requirement
+scoop install code-minimap      # minimap requirement
 scoop install ripgrep           # telescope requirement
 scoop install Cascadia-Code     # nerd font
+
+pip install pynvim              # python library
 
 scoop install neovide           # GUI client
 ```
 
-If not already done, add to the PATH variable:
+You also need to install vim plug
 
--   "$HOME\\.cargo\bin" (for rust binaries)
+```
+iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
+ni "$(@($env:XDG_DATA_HOME, $env:LOCALAPPDATA)[$null -eq $env:XDG_DATA_HOME])/nvim-data/site/autoload/plug.vim" -Force
+```
 
 ### Usage
 
-After setup, first thing to do is:
+After setup, first thing to do in vim is:
 
--   To install the lsp servers you need :
+-   To install the completion engine's dependencies :
+
+```vimscript
+:COQdeps
+```
+
+-   To install the lsp servers :
 
 ```vimscript
 :LspInstallInfo
 ```
 
--   To Install the debugger adapters you need :
+-   To Install the debugger adapters :
 
 ```vimscript
 :VimspectorInstall --all
