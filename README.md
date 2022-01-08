@@ -12,6 +12,7 @@ scoop install nodejs            # lsp installer requirement
 scoop install code-minimap      # minimap requirement
 scoop install ripgrep           # telescope requirement
 scoop install Cascadia-Code     # nerd font
+scoop install go                # efm requirement
 
 pip install pynvim              # python library
 

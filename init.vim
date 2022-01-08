@@ -142,8 +142,6 @@ Plug 'puremourning/vimspector'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 
-Plug 'Chiel92/vim-autoformat'
-
 Plug 'wfxr/minimap.vim', {'do': ':!cargo install --locked code-minimap'}
 
 Plug 'windwp/nvim-autopairs'
@@ -158,7 +156,6 @@ colorscheme gruvbox
 source $HOME/.config/nvim/modules/comfortable-motion.vim
 source $HOME/.config/nvim/modules/lsp-config.vim
 source $HOME/.config/nvim/modules/fugitive.vim
-source $HOME/.config/nvim/modules/autoformat.vim
 source $HOME/.config/nvim/modules/minimap.vim
 source $HOME/.config/nvim/modules/vimspector.vim
 
