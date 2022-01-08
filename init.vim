@@ -130,6 +130,7 @@ Plug 'kyazdani42/nvim-tree.lua'
 
 Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/nvim-lsp-installer'
+Plug 'jose-elias-alvarez/null-ls.nvim'
 
 Plug 'ms-jpq/coq_nvim', {'branch': 'coq'}
 Plug 'ms-jpq/coq.artifacts', {'branch': 'artifacts'}
@@ -174,3 +175,4 @@ luafile $HOME/.config/nvim/modules/lsp-config.lua
 luafile $HOME/.config/nvim/modules/telescope.lua
 luafile $HOME/.config/nvim/modules/fterm.lua
 luafile $HOME/.config/nvim/modules/trouble.lua
+luafile $HOME/.config/nvim/modules/null_ls.lua
