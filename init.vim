@@ -141,6 +141,7 @@ Plug 'puremourning/vimspector'
 
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
+Plug 'f-person/git-blame.nvim'
 
 Plug 'wfxr/minimap.vim', {'do': ':!cargo install --locked code-minimap'}
 
