@@ -146,6 +146,8 @@ Plug 'wfxr/minimap.vim', {'do': ':!cargo install --locked code-minimap'}
 
 Plug 'windwp/nvim-autopairs'
 
+Plug 'folke/trouble.nvim'
+
 call plug#end()
 
 
@@ -170,3 +172,4 @@ luafile $HOME/.config/nvim/modules/project.lua
 luafile $HOME/.config/nvim/modules/lsp-config.lua
 luafile $HOME/.config/nvim/modules/telescope.lua
 luafile $HOME/.config/nvim/modules/fterm.lua
+luafile $HOME/.config/nvim/modules/trouble.lua
