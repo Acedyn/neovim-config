@@ -176,3 +176,4 @@ luafile $HOME/.config/nvim/modules/telescope.lua
 luafile $HOME/.config/nvim/modules/fterm.lua
 luafile $HOME/.config/nvim/modules/trouble.lua
 luafile $HOME/.config/nvim/modules/null_ls.lua
+luafile $HOME/.config/nvim/modules/barbar.lua
