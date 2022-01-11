@@ -12,7 +12,6 @@ scoop install nodejs            # lsp installer requirement
 scoop install code-minimap      # minimap requirement
 scoop install ripgrep           # telescope requirement
 scoop install Cascadia-Code     # nerd font
-scoop install go                # efm requirement
 
 pip install pynvim              # python library
 
@@ -24,6 +23,18 @@ You also need to install vim plug
 ```
 iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
 ni "$(@($env:XDG_DATA_HOME, $env:LOCALAPPDATA)[$null -eq $env:XDG_DATA_HOME])/nvim-data/site/autoload/plug.vim" -Force
+```
+
+Optional dependencies
+
+```powershell
+scoop install rust              # for cargo
+cargo install stylua            # lua formatter
+pip install black               # python formatter
+pip install isort               # python import sorting
+pip install pylint              # python linter
+npm install -g prettier         # web languages formatter
+npm install -g eslint           # web languages linter
 ```
 
 ### Usage
