@@ -5,4 +5,4 @@ author: LAMBIN Simon
 email: simo.lambin@gmail.com
 ########################################]]
 
-require('nvim-autopairs').setup{}
+require("nvim-autopairs").setup({})

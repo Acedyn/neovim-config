@@ -30,6 +30,7 @@ set encoding=UTF-8
 set termguicolors
 set updatetime=250
 set hidden
+set ffs=unix
 
 " Force the cursor to be centered
 set so=999
@@ -60,10 +61,6 @@ vnoremap <A-j> :m '>+1<CR>gv=gv
 noremap <A-k> :m '<-2<CR>gv=gv
 vnoremap <A-h> <gv
 noremap <A-l> >gv
-
-" Switch buffer
-nnoremap gb :bn <CR>
-nnoremap gB :bp <CR>
 
 " Set extension aliases
 autocmd BufNewFile,BufRead *.uproject set filetype=jsonc
@@ -141,8 +138,7 @@ Plug 'numToStr/FTerm.nvim'
 Plug 'puremourning/vimspector'
 
 Plug 'tpope/vim-fugitive'
-Plug 'airblade/vim-gitgutter'
-Plug 'f-person/git-blame.nvim'
+Plug 'lewis6991/gitsigns.nvim'
 
 Plug 'wfxr/minimap.vim', {'do': ':!cargo install --locked code-minimap'}
 
@@ -177,3 +173,4 @@ luafile $HOME/.config/nvim/modules/fterm.lua
 luafile $HOME/.config/nvim/modules/trouble.lua
 luafile $HOME/.config/nvim/modules/null_ls.lua
 luafile $HOME/.config/nvim/modules/barbar.lua
+luafile $HOME/.config/nvim/modules/gitsigns.lua
