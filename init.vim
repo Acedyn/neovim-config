@@ -30,7 +30,6 @@ set encoding=UTF-8
 set termguicolors
 set updatetime=250
 set hidden
-set ffs=unix
 
 " Force the cursor to be centered
 set so=999
