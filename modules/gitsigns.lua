@@ -30,7 +30,6 @@ require("gitsigns").setup({
 		["n <leader>gr"] = "<cmd>Gitsigns reset_hunk<CR>",
 		["v <leader>gr"] = ":Gitsigns reset_hunk<CR>",
 		["n <leader>gR"] = "<cmd>Gitsigns reset_buffer<CR>",
-		["n <leader>gp"] = "<cmd>Gitsigns preview_hunk<CR>",
 		["n <leader>gb"] = '<cmd>lua require"gitsigns".blame_line{full=true}<CR>',
 		["n <leader>gS"] = "<cmd>Gitsigns stage_buffer<CR>",
 		["n <leader>gU"] = "<cmd>Gitsigns reset_buffer_index<CR>",
