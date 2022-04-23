@@ -108,8 +108,6 @@ Plug 'ahmedkhalf/project.nvim'
 
 Plug 'Acedyn/comfortable-motion.vim'
 
-Plug 'mbbill/undotree'
-
 Plug 'nvim-lualine/lualine.nvim'
 
 Plug 'romgrk/barbar.nvim'

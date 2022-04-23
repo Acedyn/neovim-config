@@ -6,6 +6,8 @@ Personal configuration for neovim
 
 #### Windows (scoop)
 
+Set the environment variable XDG_CONFIG_HOME to ``$HOME/.config``
+
 ```powershell
 scoop install python            # fugitive/coq requirement
 scoop install nodejs            # lsp installer requirement
