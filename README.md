@@ -55,12 +55,6 @@ After setup, first thing to do in vim is:
 :LspInstallInfo
 ```
 
--   To Install the debugger adapters :
-
-```vimscript
-:VimspectorInstall --all
-```
-
 The leader key is &lt;space&gt; the main key bindings are :
 
 -   &lt;leader&gt; f ... : Telescope related shortcuts
@@ -76,6 +70,4 @@ Other useful keybindings :
 
 -   [ ] Find an equivalent of sniprun for windows
 -   [ ] Try out nvim-dap
--   [ ] Change to a neovim autoformatter
--   [ ] Switch to packer plugin manager
 -   [ ] Grey out gitignored files in nvim-tree
