@@ -40,3 +40,4 @@ require("null-ls").setup({
 })
 
 vim.api.nvim_set_keymap("n", "<Leader>a", ":lua vim.lsp.buf.formatting()<CR>", { noremap = true })
+vim.api.nvim_create_autocmd({"BufWritePre"}, { pattern = "*", command = "lua vim.lsp.buf.formatting()"})

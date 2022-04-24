@@ -5,6 +5,7 @@ author: LAMBIN Simon
 email: simo.lambin@gmail.com
 ########################################]]
 
+vim.g.nvim_tree_quit_on_open = 1
 vim.g.nvim_tree_group_empty = 1
 vim.g.nvim_tree_respect_buf_cwd = 1
 

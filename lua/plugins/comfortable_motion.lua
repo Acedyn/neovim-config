@@ -5,7 +5,7 @@ author: LAMBIN Simon
 email: simo.lambin@gmail.com
 ########################################]]
 
-local g = vim.g       -- Global variables
+local g = vim.g
 
 g.comfortable_motion_no_default_key_mappings = 1
 g.comfortable_motion_scroll_down_key = "j"

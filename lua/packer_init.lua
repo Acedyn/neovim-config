@@ -8,6 +8,7 @@ end
 return require('packer').startup({function(use)
   -- My plugins here
   use {'shaunsingh/nord.nvim'}
+  use {'folke/tokyonight.nvim'}
   use {'ellisonleao/gruvbox.nvim'}
   use {'kyazdani42/nvim-web-devicons'}
   use {'lukas-reineke/indent-blankline.nvim'}
@@ -31,7 +32,7 @@ return require('packer').startup({function(use)
   use {'jose-elias-alvarez/null-ls.nvim'}
   use {'folke/trouble.nvim'}
 
-  use {'ms-jpq/coq_nvim', branch = 'coq'}
+  use {'ms-jpq/coq_nvim', branch = 'coq', run = ':COQdeps'}
   use {'ms-jpq/coq.artifacts', branch = 'artifacts'}
   use {'ms-jpq/coq.thirdparty', branch = '3p'}
 
