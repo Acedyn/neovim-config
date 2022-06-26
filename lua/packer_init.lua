@@ -41,7 +41,7 @@ return require('packer').startup({function(use)
 
   use {'windwp/nvim-autopairs'}
 
-  use {'wfxr/minimap.vim', run = ':!cargo install --locked code-minimap'}
+  use {'lewis6991/satellite.nvim'}
 
   use {'numToStr/FTerm.nvim'}
 
