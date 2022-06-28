@@ -5,10 +5,6 @@ author: LAMBIN Simon
 email: simo.lambin@gmail.com
 ########################################]]
 
-vim.g.nvim_tree_quit_on_open = 1
-vim.g.nvim_tree_group_empty = 1
-vim.g.nvim_tree_respect_buf_cwd = 1
-
 vim.api.nvim_set_keymap("n", "<Leader>e", ":NvimTreeToggle<CR>", { noremap = true })
 
 local tree_cb = require("nvim-tree.config").nvim_tree_callback
@@ -17,6 +13,7 @@ require("nvim-tree").setup({
 	disable_netrw = true,
 	hijack_netrw = true,
 	open_on_setup = false,
+	respect_buf_cwd = true,
 	ignore_ft_on_setup = {},
 	open_on_tab = false,
 	hijack_cursor = false,
@@ -34,31 +31,34 @@ require("nvim-tree").setup({
 			error = "",
 		},
 	},
-    open_file = {
-      quit_on_open = true,
-      resize_window = true,
-      window_picker = {
-        enable = true,
-        chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890",
-        exclude = {
-          filetype = { "notify", "packer", "qf", "diff", "fugitive", "fugitiveblame", "minimap" },
-          buftype = { "nofile", "terminal", "help" },
-        },
-      },
-    },
-    renderer = {
-      indent_markers = {
-        enable = true,
-        icons = {
-          corner = "└ ",
-          edge = "│ ",
-          none = "  ",
-      },
-    },
-    icons = {
-      webdev_colors = true,
-    },
-  },
+	actions = {
+		open_file = {
+			quit_on_open = true,
+			resize_window = true,
+			window_picker = {
+				enable = true,
+				chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890",
+				exclude = {
+					filetype = { "notify", "packer", "qf", "diff", "fugitive", "fugitiveblame", "minimap" },
+					buftype = { "nofile", "terminal", "help" },
+				},
+			},
+		},
+	},
+	renderer = {
+		group_empty = true,
+		indent_markers = {
+			enable = true,
+			icons = {
+				corner = "└ ",
+				edge = "│ ",
+				none = "  ",
+			},
+		},
+		icons = {
+			webdev_colors = true,
+		},
+	},
 	update_focused_file = {
 		enable = true,
 		update_cwd = true,

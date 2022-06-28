@@ -23,7 +23,7 @@ require("plugins.lsp_installer")
 require("plugins.null_ls")
 require("plugins.fugitive")
 require("plugins.lsp_config")
-require("plugins.satellite")
+-- require("plugins.satellite")
 
 vim.cmd("colorscheme tokyonight")
-vim.g.tokyonight_style = "night"
+-- vim.g.tokyonight_style = "night"
