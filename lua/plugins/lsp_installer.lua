@@ -10,10 +10,8 @@ require("nvim-lsp-installer").on_server_ready(function(server)
 	local opts = {}
 	opts.on_attach = function(client, bufnr)
 		-- Disable formatting in favor of null-ls
-		for key, value in pairs({ "tsserver", "sumneko_lua" }) do
-			if client.name == value then
-				client.resolved_capabilities.document_formatting = false
-			end
+		if client.name ~= "null-ls" then
+			client.server_capabilities.documentFormattingProvider = false
 		end
 	end
 

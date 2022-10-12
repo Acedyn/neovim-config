@@ -47,9 +47,9 @@ opt.updatetime = 250 -- ms to wait for trigger an event
 opt.undofile = true -- Store the undo unto a file
 
 if vim.fn.has("win") == 1 then
-	opt.undodir = "$HOME/.config/nvim/.undodir"
+	opt.undodir = os.getenv("HOME") .. "/.config/nvim/.undodir"
 else
-	opt.undodir = "~/.config/nvim/.undodir"
+	opt.undodir = os.getenv("HOME") .. "/.config/nvim/.undodir"
 end
 
 -----------------------------------------------------------
