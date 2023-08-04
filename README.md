@@ -2,6 +2,9 @@
 
 Personal configuration for neovim
 
+I am now using [lunar vim](https://www.lunarvim.org/) which is a pre configured neovim
+maintaining this config was taking too much time
+
 ### Requirement
 
 #### Windows (scoop)
